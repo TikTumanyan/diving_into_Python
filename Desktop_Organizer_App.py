@@ -25,8 +25,9 @@ def organizing():
                 moved = True
                 break
         if not moved:
-            shutil.move(file_path, os.path.join(desktop, 'Other', file)))
+            shutil.move(file_path, os.path.join(desktop, 'Other', file))
 
 if __name__ == "__main__":
     organizing()
+
 
